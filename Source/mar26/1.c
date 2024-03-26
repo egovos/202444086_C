@@ -13,6 +13,11 @@ int main() {
         }
         printf("\n");
     }
+    for (int i = 5; i >= 1; i--) {
+    if (i == 1) {
+        break;
+    }
+    printf("*");
 
     return 0;
 }
