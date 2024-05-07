@@ -2,7 +2,7 @@
 void Start();
 
 int main() {
-    printf("Star() 함수 3회 호출 결과\n");
+    printf("Start() 함수 3회 호출 결과\n");
 
     Start();
     Start();
