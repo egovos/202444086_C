@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define DT 3
+#define DT 3 //컴파일 과정에서 DT는 3으로 변경됨
 
 int main() {
     int score[DT];
