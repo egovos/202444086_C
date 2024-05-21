@@ -21,7 +21,7 @@ int main() {
 }
 
 int sv(int score[], int size) {
-    printf("%d\n", sizeof(*score)); //배열의 시작 주소만을 받았으므로 4 출력
+    printf("%d\n", sizeof(score)); //배열의 시작 주소만을 받았으므로 주소의 크기 출력
     
     int total = 0;
 
