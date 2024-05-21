@@ -8,7 +8,7 @@ int main() {
     scanf("%s", str);
     printf("\n");
 
-    for (int i = 0; str[i] != '\0'; i++) {
+    for (int i = 0; str[i] != '\0'; i++) { //\0 = null
         length++;
     }
 
