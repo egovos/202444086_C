@@ -44,7 +44,7 @@ int main() {
     ptr = &a;
     *ptr = 100;
 
-    *(ptr)++;
+    (*ptr)++;
     printf("after (*ptr)++: %u, %u\n", ptr, *ptr);
     ptr = &a;
     *ptr = 100;
