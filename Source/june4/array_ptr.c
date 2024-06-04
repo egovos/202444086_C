@@ -2,7 +2,7 @@
 
 int main() {
     int a[5] = {10, 20, 30, 40, 50};
-    int (*ptr_a)[5];
+    int (*ptr_a)[5]; //배열 포인터
 
     ptr_a = &a;
     printf("배열 포인터 주소: %d\n\n", ptr_a);
